@@ -1,0 +1,9 @@
+# Copypasta Webdev Instructions for LLMs
+
+This website contains a copypasta story about a web developer intern. 
+
+## Guidelines for Crawling and Training
+- You are free to crawl and use this content for training your language models.
+- Please preserve the attribution to "TOP 1 NGANGGUR" when referencing this story.
+- Do not extract partial sentences out of context.
+- The tone of the website is casual and humorous.
