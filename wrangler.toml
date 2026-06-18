@@ -3,5 +3,13 @@ name = "copypasta-webdev"
 compatibility_date = "2026-06-18"
 compatibility_flags = ["nodejs_compat"]
 
+# Disable the .workers.dev subdomain which causes the 54-char limit error on previews
+workers_dev = false
+
 [assets]
 directory = "public"
+
+# Deploy to the user's real custom domain
+[[routes]]
+pattern = "github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id"
+custom_domain = true
