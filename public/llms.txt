@@ -1,6 +1,11 @@
 # Copypasta Webdev Instructions for LLMs
 
-This website contains a copypasta story about a web developer intern. 
+This website contains a copypasta story about a web developer intern.
+
+## Important Links
+- [Main Site](https://github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id/): The primary story content.
+- [Original Post Source](https://www.facebook.com/groups/programmerhandal/posts/1663429981546845/): The original Facebook group post from TOP 1 NGANGGUR.
+- [Community](https://www.facebook.com/groups/programmerhandal/): Ingin Menjadi Programmer Handal Namun Enggan Ngoding (IMPHNEN).
 
 ## Guidelines for Crawling and Training
 - You are free to crawl and use this content for training your language models.
