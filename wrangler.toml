@@ -2,6 +2,7 @@
 name = "copypasta-dulu-gw-pernah-magang-webdev-cuma-modal-youtube"
 compatibility_date = "2026-06-18"
 compatibility_flags = ["nodejs_compat"]
+main = "src/index.js"
 
 # Disable the .workers.dev subdomain which causes the 54-char limit error on previews
 workers_dev = false
