@@ -32,3 +32,6 @@ Thumbs.db
 *_REMOTE_*.txt
 
 # End of https://www.toptal.com/developers/gitignore/api/git
+
+# Cloudflare Wrangler
+.wrangler/
