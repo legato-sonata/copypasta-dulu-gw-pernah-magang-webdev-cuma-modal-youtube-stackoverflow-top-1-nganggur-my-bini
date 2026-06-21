@@ -274,5 +274,30 @@
     <footer>
         <p style="text-align: center;"><small>&copy; 2026 github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id</small></p>
     </footer>
+    <script>
+        if (typeof navigator !== 'undefined' && navigator.modelContext) {
+            navigator.modelContext.provideContext({
+                tools: [
+                    {
+                        name: "get_story_summary",
+                        description: "Get a summary of the copypasta story",
+                        inputSchema: {
+                            type: "object",
+                            properties: {},
+                            required: []
+                        },
+                        execute: async () => {
+                            return {
+                                content: [{ 
+                                    type: "text", 
+                                    text: "The story is about a former intern who did webdev using only YouTube and Stack Overflow, left his GitHub behind, and later discovered his wife (Arturia Giallo) had been actively maintaining his old projects." 
+                                }]
+                            };
+                        }
+                    }
+                ]
+            });
+        }
+    </script>
 </body>
 </html>
