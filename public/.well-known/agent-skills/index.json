@@ -1,0 +1,12 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0/index.json",
+  "skills": [
+    {
+      "name": "story-summary",
+      "type": "prompt",
+      "description": "How to summarize the story",
+      "url": "https://github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id/.well-known/agent-skills/story-summary/SKILL.md",
+      "sha256": "80e3e5f93165a641be809cb48f4a7c492d15f97d15f94b14529b1ede1a465bfe"
+    }
+  ]
+}
