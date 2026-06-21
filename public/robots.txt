@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id/sitemap.xml
