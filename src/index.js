@@ -3,6 +3,12 @@ export default {
     const url = new URL(request.url);
     const acceptHeader = request.headers.get('Accept') || '';
 
+    // Explicitly bypass Worker for SEO and social graph assets to avoid crawler/cache issues
+    const seoRoutes = ['/sitemap.xml', '/robots.txt', '/og-image.png'];
+    if (seoRoutes.includes(url.pathname)) {
+      return env.ASSETS.fetch(request);
+    }
+
     // If the requester explicitly prefers text/markdown for the root page
     if ((url.pathname === '/' || url.pathname === '/index.html') && acceptHeader.includes('text/markdown')) {
       const llmsUrl = new URL(request.url);
