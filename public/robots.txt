@@ -1,3 +1,15 @@
 User-agent: *
 Allow: /
 Sitemap: https://github-lama-gw-aktif-lagi-ternyata-istri-yang-lanjutin.my.id/sitemap.xml
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
